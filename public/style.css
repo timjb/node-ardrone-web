@@ -1,0 +1,50 @@
+* { margin: 0; padding: 0; }
+
+body {
+  background: #333; color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#keys {
+  margin-top: 500px;
+  text-align: center;
+}
+#left-hand, #right-hand, #special-keys {
+  display: inline-block;
+}
+#left-hand, #right-hand {
+  margin-right: 18px;
+}
+.key {
+  display: inline-block;
+  position: relative;
+  width: 50px; height: 50px;
+  margin-right: 8px;
+  background: #666;
+  color: #333;
+  line-height: 40px;
+}
+.key:hover, .key.active {
+  background: #000; color: #fff;
+}
+.key .label, .key .action {
+  display: block;
+  position: absolute; top: 5px; left: 5px; bottom: 5px; right: 5px;
+  font-family: Helvetica, Arial, sans-serif; font-weight: bold;
+  cursor: default;
+}
+.key .label {
+  font-size: 15px; line-height: 15px;
+  text-align: left;
+}
+#key_enter .label, .key .action {
+  font-size: 28px; line-height: 40px;
+  text-align: center;
+}
+.key .label { display: block; }
+.key .action { display: none; }
+.key:hover .label, .key.active .label { display: none; }
+.key:hover .action, .key.active .action { display: block; }
+#right-hand .key .action {
+  line-height: 32px;
+}

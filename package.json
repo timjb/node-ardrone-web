@@ -1,0 +1,15 @@
+{
+  "name": "ardrone-web",
+  "version": "0.1.0",
+  "description": "A web interface to control your ARDrone",
+  "author": "Tim Baumann <tim@timbaumann.info>",
+  "homepage": "https://github.com/timjb/node-ardrone-web",
+  "repository": { "type": "git", "url": "https://github.com/timjb/node-ardrone-web.git" },
+  "dependencies": {
+    "ardrone": ">=0.1.0",
+    "socket.io": ">=0.6.10",
+    "connect": ">=0.5.10"
+  },
+  "scripts": { "start": "node server.js" },
+  "bin": { "ardrone-web": "./server.js" }
+}

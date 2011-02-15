@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset=utf-8>
+<title>Parrot AR.Drone + node.js</title>
+<link rel=stylesheet href=/style.css>
+<meta name=author name="Tim Baumann">
+
+<body>
+<div id=keys>
+  <div id=left-hand>
+    <div class=key id=key_a title="turn left"><span class=label>a</span><span class=action>&#x21ba;</span></div>
+    <div class=key id=key_s title=up><span class=label>s</span><span class=action>&uArr;</span></div>
+    <div class=key id=key_d title=down><span class=label>d</span><span class=action>&dArr;</span></div>
+    <div class=key id=key_f title="turn right"><span class=label>f</span><span class=action>&#x21bb;</span></div>
+  </div>
+  <div id=right-hand>
+    <div class=key id=key_h title=left><span class=label>h</span><span class=action>&larr;</span></div>
+    <div class=key id=key_j title=backward><span class=label>j</span><span class=action>&darr;</span></div>
+    <div class=key id=key_k title=forward><span class=label>k</span><span class=action>&uarr;</span></div>
+    <div class=key id=key_l title=right><span class=label>l</span><span class=action>&rarr;</span></div>
+  </div>
+  <div id=special-keys>
+    <div class=key id=key_enter title=takeoff><span class=label>&crarr;</span><span class=action>&#x21a5;</span></div>
+    <div class=key id=key_esc title=land><span class=label>Esc</span><span class=action>&#x21a7;</span></div>
+  </div>
+</div>
+
+<script src=/socket.io/socket.io.js></script>
+<script src=/script.js></script>
