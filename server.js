@@ -6,7 +6,7 @@ var drone   = require('ardrone')
 ,   fs      = require('fs')
 
 // Serve web interface
-var server = connect.createServer(connect.staticProvider(__dirname + '/public'))
+var server = connect.createServer(connect.static(__dirname + '/public'))
 server.listen(8000)
 
 // WebSocket
