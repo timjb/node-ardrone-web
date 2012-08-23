@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/timjb/node-ardrone-web.png)](http://travis-ci.org/timjb/node-ardrone-web)
 node-ardrone-web
 ================
 
