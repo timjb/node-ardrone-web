@@ -1,7 +1,7 @@
 node-ardrone-web
 ================
 
-A web interface to control you Parrot AR.Drone.
+A web interface to control the Parrot AR.Drone.
 
 	$ npm install ardrone-web
 
